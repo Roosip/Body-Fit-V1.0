@@ -21,6 +21,13 @@ Este projeto é uma interface de acesso para a academia Body Fit, permitindo o l
 
 A interface principal oferece aos usuários a opção de acessar a academia usando biometria ou código de acesso. Além disso, uma tabela exibe os registros de entrada e saída dos usuários, com a opção de resetar esses registros.
 
+## Vídeo do projeto
+
+<video width="720" height="" controls>
+  <source src="./videos/Body-Fit-Demonstração-do-APP-video.mp4" type="video/mp4">
+</video>
+
+
 ## Interface do Usuário (Lado cliente)
 
 ![Logo Body Fit](img/tela-do-usuario-body-fit.png)
