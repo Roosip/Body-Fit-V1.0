@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Entrada e Saída</title>
+    <link rel="stylesheet" href="./styles/records_style.css">
+</head>
+<body>
+
+<!-- Adiciona uma classe ao contêiner do título para torná-lo invisível -->
+<div class="container title-container">
+    <div class="form-container">
+        <h2>Registro de Entrada e Saída</h2>
+        <form id="entryForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" disabled><br>
+        </form>
+    </div>
+</div>
+
+<div class="container">
+    <div class="record-container">
+        <h2>Registros de Entrada e Saida<span id="currentDate"></span></h2> <!-- Adicionando a data atual -->
+        <table id="recordsTable">
+            <div class="lista">
+                <tr>
+                    <th class="home">Nome</th>
+                    <th class="entrada">Entrada</th>
+                    <th class="saida">Saída</th>
+                    <th class="tempo-decorrido">Tempo Decorrido</th>
+                    <th class="none"></th>
+                </tr>
+            </div>
+            <tbody id="records"></tbody>
+        </table>
+    </div>
+    
+    <!-- Move o botão para resetar o localStorage para dentro do contêiner de registros -->
+    <div class="reset-container">
+        <img src="./img/reset.png" alt="Resetar Registro" class="reset-button" id="resetButton"> <!-- Use a imagem do ícone de reset -->
+    </div>
+</div>
+
+<!-- Modal de confirmação -->
+<div id="resetModal" class="modal">
+    <div class="modal-content">
+        <p>Tem certeza de que deseja resetar o registro?</p>
+        <button class="cancel">Cancelar</button>
+        <button class="confirm">OK</button>
+    </div>
+</div>
+
+<script src="./scripts/records_script.js"></script>
+
+</body>
+</html>

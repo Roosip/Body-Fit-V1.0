@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acesso Body Fit</title>
+    <link rel="stylesheet" href="./styles/username_style.css">
+    <link rel="shortcut icon" href="./img/body-fit-favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<div class="container">
+    <div class="form-container">
+        <img src="./img/body-fit-logo-sem-fundo.png" alt="logo-body-fit" id="logo">
+        <h2 id="bem-vindo">Bem-vindo(a) de volta!</h2>
+        <p id="acesso1">Acesse a academia usando sua biometria ou digite o seu código de acesso no campo abaixo.</p>
+        <form id="accessCodeForm">
+            <label for="accessCode">Código de acesso:</label><br>
+            <div class="input-cadeado">
+                <input type="password" id="accessCode" required autocomplete="off">
+                <img src="./icons/cadeado.png" class="cadeado" alt="cadeado-icon"><br>
+            </div>
+            <button type="submit" id="submitButton">Entrar</button>
+            <button type="cancel" id="cancelButton">Cancelar</button>
+        </form> 
+        <div class="ou">
+            <img id="listra-esq" src="./img/listra-azul.png" alt="">
+            <p id="ou">ou</p>
+            <img id="listra-dir" src="./img/listra-azul.png" alt="">
+        </div>
+        <br><br><br>
+        <p id="acesso2">Ainda não é nosso aluno? Siga até a recepção e conheça nossos planos e benefícios, retire todas as suas duvidas e venha fazer parte da Body Fit!</p>
+        
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank" class="no-underline">
+                <img src="./icons/facebook.png" alt="facebook-icon">
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="no-underline">
+                <img src="./icons/instagram.png" alt="instagram-icon">
+            </a>
+            <a href="https://www.youtube.com.br" target="_blank" class="no-underline">
+                <img src="./icons/youtube.png" alt="youtube-icon">
+            </a>
+            <a href="https://www.tiktok.com/pt-BR/" target="_blank" class="no-underline">
+                <img src="./icons/tiktok.png" alt="tiktok-icon">
+            </a>
+            <a href="https://twitter.com/home" target="_blank" class="no-underline">
+                <img src="./icons/twitter.png" alt="twitter-icon">
+            </a>
+        </div>
+
+        <div class="biometria-container">
+            <h2 id="h2-biometria">INSIRA SUA BIOMETRIA NO LOCAL INDICADO</h2>
+            <p id="p-biometria">Acesse a academia usando sua biometria. Caso tenha algum problema, informe a recepção para que seja auxiliado.</p>
+            <img src="./img/biometria.png" class="biometria" alt="">
+            <p id="p-dedo">COLOQUE O DEDO AQUI</p>
+            <div id="pop-up">
+                <div id="accessCodeError" class="error"></div>
+            </div>
+
+            <div class="data">
+                <img id="data-icon" src="./icons/data.png" alt="data-icon">
+                <p id="currentDate"></p>
+            </div>
+            <div class="hora">
+                <img id="hora-icon" src="./icons/hora.png" alt="hora-icon">
+                <p id="currentTime"></p> 
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="./scripts/username_script.js"></script>
+
+</body>
+</html>

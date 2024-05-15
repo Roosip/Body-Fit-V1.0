@@ -1,0 +1,244 @@
+/* Corpo */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container principal e do formulário*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form-container {
+    position: relative;
+    width: 1024px;
+    height: 720px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to top, rgba(49, 179, 209,0.6), #FFFFFF);
+}
+
+/* Formulário */
+#logo {
+    width: 154px;
+    height: 154px;
+    margin: 27px 0px 0px 153px;
+}
+
+#bem-vindo {
+    margin: -20px 102px 0px;
+}
+
+#acesso1{
+    margin: 65px 0 20px 16px;
+    width: 430px;
+    font-size: 18px;
+}
+#accessCode{
+    width: 427px;
+    height: 46px;
+    margin-left: 16px;
+}
+
+label {
+    font-weight: bold;
+    margin-left: 16px;
+}
+input[type="password"] {
+    width: 427px;
+    height: 46px;
+    padding: 8px;
+    margin: 5px 0px 8px 0px;
+    box-sizing: border-box;
+    color: #0B0E0F;
+    border-radius: 5px;
+    box-shadow: none;
+    border: #FFFFFF;
+}
+
+.input-cadeado {
+    position: relative;
+}
+
+.input-cadeado .cadeado {
+    position: absolute;
+    right: 600px;
+    top: 20px;
+}
+
+button[type="submit"] {
+    padding: 8px 16px;
+    background-color: #31B3D1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    width: 210px;
+    height: 46px;
+    margin-right: 3px;
+    margin-left: 16px;
+}
+
+button[type="cancel"] {
+    padding: 8px 16px;
+    background-color: #FFFFFF;
+    color: #0B0E0F;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    width: 210px;
+    height: 46px;
+}
+button[type="submit"]:hover {
+    background-color: #20a0bd;
+}
+
+button[type="cancel"]:hover {
+    background-color: #e0e0e0;
+}
+
+.ou {
+    position: flex;
+}
+
+#listra-esq, #listra-dir, #ou{
+    position: absolute;
+}
+
+#listra-esq {
+    margin-top: 32px;
+    margin-left: 16px;
+}
+
+#ou {
+    margin-top: 18px;
+    margin-left: 220px;
+    font-size: 18px;
+}
+
+#listra-dir{
+    margin-top: 32px;
+    margin-left: 249px;
+}
+
+#acesso2 {
+    text-align: center;
+    width: 430px;
+    font-size: 18px;
+    margin-left: 16px;
+    margin-top: -8px;
+}
+
+.social-icons {
+    margin-top: 9px;
+    margin-left: 149px;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+/* Container da Biometria */
+.biometria-container {
+    width: 439px;
+    height: 657px;
+    background: #31B3D1;
+    border-radius: 25px;
+    position: absolute;
+    top: 51.5px;
+    right: 53px;
+}
+
+#h2-biometria {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 16px;
+}
+
+#p-biometria {
+    text-align: center;
+    font-size: 14px;
+    width: 381px;
+    margin-left: 28px;
+    margin-bottom: 45px;
+}
+
+.biometria {
+    margin-left: 135px;
+    align-self: center;
+}
+
+#p-dedo {
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-left: 117px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+#pop-up {
+    width: 300px;
+    height: 48px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    margin: 0px 0px 0px 69px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#accessCodeError {
+    color: #0B0E0F;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+.data, .hora {
+    position: flex;
+}
+
+#data-icon {
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+#currentDate{
+    position: absolute;
+    margin-left: 145px;
+    margin-top: 30px;
+}
+
+#hora-icon {
+    position: absolute;
+    margin-left: 175px;
+    margin-top: 60px;
+}
+
+#currentTime{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 58px;
+}
+
+
+#currentDate, #currentTime {
+    color:#FFFFFF;
+}
+
+#h2-biometria, #p-biometria {
+    color: #FFFFFF;
+}
