@@ -23,7 +23,7 @@ A interface principal oferece aos usuários a opção de acessar a academia usan
 
 ## Vídeo do projeto
 
-![Nome do GIF](./videos/Body-Fit-Demonstração-do-APP-video.gif)
+![Video do projeto](./videos/Body-Fit-Demonstração-do-APP-video.gif)
 
 ## Interface do Usuário (Lado cliente)
 
