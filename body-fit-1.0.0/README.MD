@@ -139,6 +139,9 @@ A interface principal oferece aos usuários a opção de acessar a academia usan
 
 ![Ícone de perfil](icons/github-icon.svg) - [Thiago Negreiros](https://github.com/thithi22)
 
+![Ícone de perfil](icons/github-icon.svg) - [Gabriel Fonseca](https://github.com/Gablucs)
+
+
 
 ## Resumo Final
 
